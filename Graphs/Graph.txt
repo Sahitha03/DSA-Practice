@@ -1,0 +1,48 @@
+                             Graph
+                            -------
+1)Graph is a collction of vertices(nodes) and edges(relationships)
+    G=(V,E)
+
+Real world applications of graph
+-------------------------------
+1.Maprealted-gmap,zomato,swiggy
+2.social networks-insta,facebook,threads,snap,twitter.
+
+Difference between Trees and Graphs
+------------------------------------
+
+       Trees                                Graphs
+      -------                             ---------
+1.All trees are graphs                  1.All graphs are not trees
+
+2.Tree have a start node called         2.In graph,any vertex      
+  root.                                   can be a start node.
+
+3.Tree have no cycles                   3.Cycles are allowed in graph.
+
+4.Directed                              4.Directed/undirected
+
+5.Connected                             5.Connected/disconnected
+
+6.unique path between any two           6.Many paths exist between any two vertices
+vertices.
+
+7.Directed,connected,acyclic.           7.directed/undirected
+                                          cyclic/acyclic
+                                          connected/disconnected
+
+Degree of a node
+----------------
+1.Degree of Node= no.of edges attached to it.(Incoming+outgoing)
+2.Total degree of cyclic graph=2*E
+
+Edge weight
+-----------
+1.Every edge have a weight.
+
+Input
+-----
+1.Given n and m.
+2.Whether the graph is a directed or undirected.
+3.2D matrix which represents the edges between nodes(Adjacency matrix) (or) List way.
+
